@@ -1,0 +1,3 @@
+C:\cassia2API\obj\Debug\cassia2API.njsprojAssemblyReference.cache
+C:\cassia2API\obj\Debug\cassia2API.njsproj.CoreCompileInputs.cache
+C:\cassia2API\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models/hub",
+      "../common/models/hcp",
+      "../common/models/medvantx",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Patient": {
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Logger": {
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Email": {
+    "dataSource": "EmailDataSource"
+  },
+  "Role": {
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Program":{
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Enrollment":{
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Document":{
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "HCP":{
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Shared":{
+    "dataSource":"ssrx",
+    "public": true
+  },
+  "CassiaId": {
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Marketer": {
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Pharmacy": {
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Comment": {
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Staff": {
+    "dataSource": "ssrx",
+    "public": true
+  },
+  "Prescription": {
+    "dataSource": "ssrx",
+    "public": true
+  }
+}

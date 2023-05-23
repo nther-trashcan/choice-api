@@ -1,0 +1,48 @@
+{
+    "name": "Patient",
+    "plural": "Patient",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "strictObjectIDCoercion": true
+    },
+    "properties": {
+        "firstName": {
+            "type": "string"
+        },
+        "middleName": {
+            "type": "string"
+        },
+        "lastName": {
+            "type": "string"
+        },
+        "gender": {
+            "type": "string"
+        },
+        "dateOfBirth": {
+            "type": "string"
+        },
+        "phoneNo": {
+            "type": "string"
+        },
+        "address":{
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {},
+    "rolePermissions": [
+        {
+            "methodName": [
+                "**"
+            ],
+            "permissions": [
+                "Admin",
+                "hcp"
+            ]
+        }
+    ]
+}

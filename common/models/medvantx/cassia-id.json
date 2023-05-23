@@ -1,0 +1,34 @@
+{
+    "name": "CassiaId",
+    "plural": "CassiaId",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "modelName": {
+            "type":"string",
+            "required": true
+        },
+        "modelString": {
+            "type":"string",
+            "required": true
+
+        },
+        "programString": {
+            "type":"string",
+            "required": true
+
+        },
+        "sequence_value": {
+            "type":"number",
+            "required": true
+
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

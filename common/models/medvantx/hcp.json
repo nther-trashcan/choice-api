@@ -1,0 +1,37 @@
+{
+    "name": "HCP",
+    "plural": "HCP",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "strictObjectIDCoercion": true
+    },
+    "properties": {
+        "firstName": {
+            "type":"string"
+        },
+        "lastName": {
+            "type":"string"
+        },
+        "npi": {
+            "type":"string"
+        }
+
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {},
+    "rolePermissions": [
+        {
+            "methodName": [
+                "**"
+            ],
+            "permissions": [
+                "Admin",
+                "hcp"
+            ]
+        }
+    ]
+}

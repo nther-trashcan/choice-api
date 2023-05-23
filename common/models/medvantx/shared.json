@@ -1,0 +1,35 @@
+{
+    "name": "Shared",
+    "plural": "Shared",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true,
+        "strictObjectIDCoercion": true
+    },
+    "properties": {
+        "value": {
+            "type": "array",
+            "required": true
+        },
+        "sectionName":{
+            "type": "string",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {},
+    "rolePermissions": [
+        {
+            "methodName": [
+                "**"
+            ],
+            "permissions": [
+                "Admin",
+                "hcp"
+            ]
+        }
+    ]
+}

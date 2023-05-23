@@ -1,0 +1,74 @@
+{
+  "name": "Logger",
+  "plural": "Logger",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cassiaId": {
+      "type": "string"
+    },
+    "isLoggedIn": {
+      "type": "boolean",
+      "required": true
+    },
+    "eventType": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "endPoint": {
+      "type": "string",
+      "required": true
+    },
+    "requestType": {
+      "type": "string",
+      "required": true
+    },
+    "beforeUpdate": { 
+      "type": "object"
+    },
+    "afterUpdate": {
+      "type": "object"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "postBody": {
+      "type": "string"
+    },
+    "errorMessage": {
+      "type": "string"
+    },
+    "isError": {
+      "type": "boolean",
+      "required": true
+    },
+    "response": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {},
+  "rolePermissions": [
+    {
+      "methodName": [
+        "**"
+      ],
+      "permissions": [
+        "Admin",
+        "Lead-Analyst",
+        "Analyst",
+        "Hcp"
+      ]
+    }
+  ]
+}

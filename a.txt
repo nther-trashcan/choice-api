@@ -1,0 +1,21 @@
+NODE_ENV=devlopment
+EMAIL_USER=eyepointassist@AppianRx.com
+EMAIL_PASS=Eyepoint2020
+FAX_OUTBOUND_URL=https://na.connect.etherfax.net/rest/3.0/api/outbox
+FAX_OUTBOUND_AUTHORIZATION="Bearer RRw24nMJq6qi459qLXKokLKxmnUPV9GN++SdO5SuXPY="
+FAX_OUTBOUND_HEADER=Rajseh Pal
+FAX_INBOUND_JOBID_URL=https://na.connect.etherfax.net/rest/3.0/api/inbox?a=get&id=
+FAX_INBOUND_URL=https://na.connect.etherfax.net/rest/3.0/api/inbox?a=list&count=0
+FAX_DAILNUMBER=3469984346
+DUMMY_EMAIL=robert@ssrx.com
+FAX_INBOUND_CRONE_JOB_TIME_INTERVAL=5
+CASSIA_BASE_URL=https://uat.cassia.appianrx.com:4225/#/changePassword/
+DOCUSIGN_BASEURL=https://na3.docusign.net/restapi
+DOCUSIGN_CLIENT_USERID=67392475
+DOCUSIGN_CLIENT_USERNAME=CreateEnvelope@AppianRx.com
+DOCUSIGN_CLIENT_PASSWORD=Southside2020!
+DOCUSIGN_CLIENT_INTEGATORKEY=ea937f10-43ba-4aef-b2e4-32dfa9a0fccb
+TWILIO_ACCOUNT_ID=ACe460ddbdd3d7d13104bc3257e3bdf0be
+TWILIO_ACCOUNT_TOKEN=c366959ca5a1a813a96a3edae321bcb0
+BITLY_CLIENT_ID=97c476e0f65ca889ec8acdbad7711f7629bc24f0
+BITLY_CLIENT_SECRET=c68d085e6e186ea439f1d4115534ab66dd2b0a29

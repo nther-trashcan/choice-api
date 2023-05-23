@@ -1,0 +1,278 @@
+<div style="font-size: 12px !important;">
+    <div style="padding: 16px;  page-break-after: always;">
+      <div style="text-align: center !important;">
+        <img
+          src="https://medvantx-pap-assist.s3.amazonaws.com/medvantx_logo.png"
+          style="
+            width: 20%;
+          "
+        />
+      </div>
+      <div>
+        <h2 style="margin-bottom: 0">Fax Transmittal</h2>
+        <hr style="border-top: 3px solid #000" />
+      </div>
+      <div>
+        <p>
+          Notice: We are pleased to notify you that your patient listed above is
+          eligible to receive their drug at no cost through the DAYVIGOTM
+          (lemborexant) CIV Patient Assistance Program. This program provides
+          prescription medicine to patients based on established eligibility
+          criteria. Program eligibility is reviewed annually and may change if
+          the patient’s income or insurance status changes.
+        </p>
+      </div>
+      <section>
+        <div>
+          <h3>To:</h3>
+          <p>
+            Company:
+            <span style="font-weight: bold">{Physician Name}</span>
+          </p>
+          <p>
+            Fax Number:
+            <span style="font-weight: bold">{Fax Number}</span>
+          </p>
+          <p>
+            Phone:
+            <span style="font-weight: bold">{Phone Number}</span>
+          </p>
+        </div>
+        <div>
+          <h3>From:</h3>
+          <p>
+            Department:
+            <span style="font-weight: bold">{Program Department}</span>
+          </p>
+          <p>
+            Company:
+            <span style="font-weight: bold">{Program Company}</span>
+          </p>
+          <p>
+            Phone:
+            <span style="font-weight: bold">{Program Phone}</span>
+          </p>
+          <p>
+            Fax:
+            <span style="font-weight: bold">{Program Fax}</span>
+          </p>
+        </div>
+        <div style="width: 98%;">
+          <h3>Notes:</h3>
+          <textarea id="text-area" name="textArea" rows="7" style="width: 100%;padding: 12px; border: 1px solid #ccc !important;" disabled>{Notes}</textarea>
+        </div>
+      </section>
+      <footer style="margin-top: 14vh">
+        <div
+          style="
+            text-align: center !important;
+          "
+        >
+          <p>
+            Thank you for your assitance, and fast response, <br />
+            in helpling us provide better service for our patient
+          </p>
+        </div>
+        <hr style="border-top: 2px solid #ccc" />
+        <div style="text-align: center;">
+          <p style="font-weight: bold">
+            Date and time of transmission: {Current Date} {Current Time} <br />
+            Number of pages including this cover sheet: {Page}
+          </p>
+        </div>
+      </footer>
+    </div>
+    <div style="padding: 16px;">
+      <div style="margin-bottom: 8px;">
+        <img
+          style="width: 100px; align-self: left"
+          src="https://medvantx-pap-assist.s3.amazonaws.com/eisai_logo.png"
+        />
+        <button
+          style="
+            padding: 0.5%;
+            background-color: rgb(75, 74, 74);
+            color: white;
+            border-radius: 10px;
+            float: right;
+            margin-top: 1.5rem;
+          "
+        >
+        Program Eligibility Letter
+        </button>
+      </div>
+      <div>
+        <table style="width: 100%; border-collapse: collapse">
+          <tr>
+            <td
+              style="
+                margin: 0;
+                padding: 0.5% 2%;
+                border: 1px solid black;
+                border-collapse: collapse;
+              "
+            >
+              To: <span>{Physician Name}</span>
+            </td>
+            <td
+              style="
+                margin: 0;
+                padding: 0.5% 2%;
+                border: 1px solid black;
+                border-collapse: collapse;
+              "
+            >
+              Fax: <span>{Fax Number}</span>
+            </td>
+            <td
+              style="
+                margin: 0;
+                padding: 0.5% 2%;
+                border: 1px solid black;
+                border-collapse: collapse;
+              "
+            >
+              Phone: <span>{Phone Number}</span>
+            </td>
+          </tr>
+          <tr>
+            <td
+              style="
+                margin: 0;
+                padding: 0.5% 2%;
+                border: 1px solid black;
+                border-collapse: collapse;
+              "
+            >
+              From:
+              <span style="font-weight: bold">{Program Name}</span>
+            </td>
+            <td
+              style="
+                margin: 0;
+                padding: 0.5% 2%;
+                border: 1px solid black;
+                border-collapse: collapse;
+              "
+            >
+              Fax: <span>{Program Fax}</span>
+            </td>
+            <td
+              style="
+                margin: 0;
+                padding: 0.5% 2%;
+                border: 1px solid black;
+                border-collapse: collapse;
+              "
+            >
+              Phone: <span>{Program Phone}</span>
+            </td>
+          </tr>
+          <tr>
+            <td
+              style="
+                margin: 0;
+                padding: 0.5% 2%;
+                border: 1px solid black;
+                border-collapse: collapse;
+              "
+            >
+              Case Id: <span>{Enrollment ID}</span>
+            </td>
+            <td
+              style="
+                margin: 0;
+                padding: 0.5% 2%;
+                border: 1px solid black;
+                border-collapse: collapse;
+              "
+            >
+              date: <span>{Current Date}</span>
+            </td>
+            <td
+              style="
+                margin: 0;
+                padding: 0.5% 2%;
+                border: 1px solid black;
+                border-collapse: collapse;
+              "
+            >
+              Pages: <span>{Page}</span>
+            </td>
+          </tr>
+        </table>
+        <section>
+          <p>
+            RE:
+            <span style="font-weight: bold">{Patient Name}, {Patient DOB}</span>
+          </p>
+          <p>
+            Dear
+            <span style="font-weight: bold">{Physician Name},</span>
+          </p>
+          <p>
+            We are pleased to notify you that your patient listed above is eligible to receive their drug at no cost through the DAYVIGOTM (lemborexant) CIV Patient Assistance Program. This program provides prescription medicine to patients based on established eligibility criteria. Program eligibility is reviewed annually and may change if the patient's income or insurance status changes.
+          </p>
+          <p>
+            Your patient's prescription for DAYVIGO will be filled by MedVantx, a home delivery pharmacy that Eisai works with. Each monthly prescription will be shipped directly to your patient's home address for both initial and subsequent refills. A MedVantx representative will reach out to your patient to schedule delivery, which will require signature upon delivery from UPS. 
+          </p>
+          <p>
+            Patients participating in the DAYVIGO Patient Assistance Program must comply with all program rules and should notify the DAYVIGO Patient Assistance Program if their insurance coverage or circumstances change. Eisai Inc. reserves the right to rescind, revoke, or amend this offer without notice at any time.
+          </p>
+          <p>
+            If you have any questions, please call the DAYVIGO Patient
+            Assistance Program at 866-349-3026. Representatives are available
+            Monday through Friday from 8 AM to 8 PM ET (excluding public
+            holidays).
+          </p>
+          <p>Sincerely,</p>
+          <p>DAYVIGO Patient Assistance Program</p>
+          <p>
+            You are encouraged to report side effects of prescription drugs to
+            the FDA. Visit
+            <span style="font-weight: bold"><a>www.fda.gov/medwatch</a></span>
+            or call
+            <span style="font-weight: bold">1-800-FDA-1088.</span>
+          </p>
+          <div
+            style="text-align: center;"
+          >
+            IF YOU HAVE ANY QUESTIONS, PLEASE CALL
+            <br />866-349-3026 or fax 844-737-3493 <br />Monday through Friday 8
+            AM - 8 PM ET
+          </div>
+          <br />
+          <div style="font-weight: bold">
+            IMPORTANT NOTE:
+            <span style="font-size: 0.8em"
+              >Eisai cannot guarantee payment of any claim. Coding, coverage and
+              reimbursement may vary significantly by payer, plan, patient, and
+              setting of care. Actual coverage and reimbursement decisions are
+              made by individual payers following the receipt of claims. For
+              additional information, customers should consult with their payers
+              for all relevant coding, reimbursement, and coverage requirements.
+              It is the sole responsibility of the provider to select the proper
+              code and ensure the accuracy of all claims used in seeking
+              reimbursement. All services must be medically appropriate and
+              properly supported in the patient medical record.</span
+            >
+          </div>
+          <hr />
+          <br />
+          <div style="font-style: italic; font-size: 0.8em">
+            Confidentiality Notice: The information contained in this facsimile
+            may be confidential and legally privileged. It is intended only for
+            use of the individual named. If you are not the intended recipient,
+            you are hereby notified that the disclosure, copying, distribution,
+            or taking of any action in regards to the contents of this fax -
+            except its direct delivery to the intended recipient - is strictly
+            prohibited. If you have received this fax in error, please notify
+            the sender immediately and destroy this cover sheet along with its
+            contents, and delete from your system, if applicable.
+          </div>
+          <br />
+          <div>DAYV-US2311 April 2020</div>
+        </section>
+      </div>
+    </div>
+</div>

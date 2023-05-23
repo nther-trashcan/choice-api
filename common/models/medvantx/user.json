@@ -1,0 +1,83 @@
+{
+    "name": "User",
+    "plural": "User",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true,
+      "strictObjectIDCoercion": true
+    },
+    "properties": {
+      "cassiaId": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "required": true
+      },
+      "isApproved": {
+        "type": "boolean"
+      },
+      "firstName": {
+        "type": "string",
+        "required": true
+      },
+      "middleName": {
+        "type": "string"
+      },
+      "lastName": {
+        "type": "string",
+        "required": true
+      },
+      "prefferedFirstName": {
+        "type": "string"
+      },
+      "prefferedLastName": {
+        "type": "string"
+      },
+      "jobTitle": {
+        "type": "string"
+      },
+      "cell": {
+        "type": "string"
+      },
+      "workEmail": {
+        "type": "string",
+        "required": true
+      },
+      "phone": {
+        "type": "string"
+      },
+      "state": {
+        "type": "string"
+      },
+      "dob": {
+        "type": "date"
+      },
+      "doh": {
+        "type": "date"
+      },
+      "isDeleted": {
+        "type": "boolean",
+        "default": false
+      },
+      "timeStamp":{
+        "type": "date"
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {},
+    "rolePermissions": [
+      {
+        "methodName": [
+          "getCurrentLoggedInUser"
+        ],
+        "permissions": [
+          "Admin",
+          "Analyst"
+        ]
+      }
+    ]
+  }
